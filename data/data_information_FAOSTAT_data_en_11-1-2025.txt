@@ -1,0 +1,20 @@
+All Countries,
+Elements <- values
+Items <- All
+Year <- 2020-2024
+
+
+
+
+# Message
+Values has "<0.1"
+Number of women of reproductive age (15-49 years) affected by anemia (million)
+Number of children under 5 years of age who are stunted (modeled estimates) (million)
+Number of children under 5 years of age who are overweight (modeled estimates) (million)
+Number of obese adults (18 years and older) (million)
+Number of women of reproductive age (15-49 years) affected by anemia (million)
+Number of newborns with low birthweight (million)
+Number of children under 5 years affected by wasting (million)
+Conclusion: we are using prevalence or percentage so it is fine.
+
+India is coming up maybe because, there is a lot of NA, and I am imputing values, so same value many  time which can be high values
