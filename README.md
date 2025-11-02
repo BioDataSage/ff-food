@@ -1,7 +1,3 @@
-# ff-food
-
-# Project Information
-
 ## Global Food Security Insights: Focus on children under five and women of reproductive age
 
 ### Overview: 
@@ -43,6 +39,44 @@ Indicators for China were: percentage of children under five who are overweight 
 3. Do renv::restore()
 4. Follow the instructions in the notebook to reproduce the analysis
 
+### Repository Structure
+```
+.
+├── LICENSE
+├── README.md
+├── assets
+│   ├── data_exploration_dimension_reduction_pca
+│   │   ├── biplot_data_2020_unique_years_wide.png
+│   │   ├── biplot_data_2021_unique_years_wide.png
+│   │   ├── biplot_data_2022_unique_years_wide.png
+│   │   ├── biplot_data_2023_unique_years_wide.png
+│   │   ├── biplot_data_2024_unique_years_wide.png
+│   │   ├── score_plot_data_2020_unique_years_wide.png
+│   │   ├── score_plot_data_2021_unique_years_wide.png
+│   │   ├── score_plot_data_2022_unique_years_wide.png
+│   │   ├── score_plot_data_2023_unique_years_wide.png
+│   │   └── score_plot_data_2024_unique_years_wide.png
+│   ├── data_exploration_summarytools
+│   │   ├── Data Frame Summary 2020.html
+│   │   ├── Data Frame Summary 2021.html
+│   │   ├── Data Frame Summary 2022.html
+│   │   ├── Data Frame Summary 2023.html
+│   │   └── Data Frame Summary 2024.html
+│   └── data_prediction_ARIMA
+│       ├── over_the_year_trend.jpeg
+│       └── plot_pred_auto_ARIMA.png
+├── data
+│   ├── 01_cleaned_data
+│   │   └── all_years_data.xlsx
+│   └── data_dictionary.txt
+├── renv.lock
+└── scripts
+    ├── 01_data_exploration.R
+    ├── 02_ARIMA_forecast_sudipta.R
+    └── functions
+        ├── Auto_Arima.R
+        └── PCA_Visualise.R
+```
 ### Team and Credits:
 Alraian “Ryan” Abdelrahim: Conceptualization, documentation, dataset visualization and external research
 Camille James: Conceptualization, time series analysis and visualization using R
