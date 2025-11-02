@@ -44,4 +44,4 @@ Indicators for China were: percentage of children under five affected by wasting
 
 ### Team and Credits:
 
-### License: 
+### License: MIT LICENSE
